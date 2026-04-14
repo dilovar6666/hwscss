@@ -136,6 +136,7 @@ header .right input {
   display: flex;
   justify-content: space-evenly;
   margin-top: 60px;
+  margin-bottom: 180px;
 }
 .sect1 .card {
   width: 300px;
@@ -182,4 +183,32 @@ header .right input {
   font-size: 15px;
   font-weight: 600;
   letter-spacing: 0.2px;
+}
+
+.sect2 {
+  padding: 10px 0px;
+  background-color: rgb(250, 250, 250);
+  padding-bottom: 120px;
+}
+.sect2 .maindiv2 {
+  max-width: 1240px;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 60px;
+  gap: 30px;
+}
+.sect2 .maindiv2 .card2 {
+  width: 350px;
+  background-color: rgba(0, 255, 255, 0);
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid rgb(222, 222, 222);
+  font-size: 24px;
+  font-weight: 600;
+  color: rgb(115, 115, 115);
 }/*# sourceMappingURL=style.css.map */
