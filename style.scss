@@ -158,6 +158,7 @@ header {
     justify-content: space-evenly;
     margin-top: 60px;
     margin-bottom: 180px;
+    flex-wrap: wrap;
 
     .card {
         width: 300px;
@@ -227,6 +228,7 @@ header {
         justify-content: space-evenly;
         margin-top: 60px;
         gap: 30px;
+        flex-wrap: wrap;
 
         .card2 {
             width: 350px;
@@ -322,4 +324,141 @@ header {
             border: 1px solid rgba(230, 230, 230, 1);
         }
     }
+}
+
+.sect5 {
+    width: 96%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    gap: 60px;
+    padding-left: 30px;
+
+    .card5 {
+        width: 20%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        h2 {
+            color: rgba(37, 43, 66, 1);
+            font-size: 34px;
+        }
+
+        p {
+            font-size: 20px;
+            font-weight: 500;
+            color: rgba(115, 115, 115, 1);
+            line-height: 20px;
+        }
+    }
+
+}
+
+footer {
+    text-align: center;
+    background-color: rgba(250, 250, 250, 1);
+    padding: 30px;
+    color: rgba(115, 115, 115, 1);
+    font-size: 14px;
+}
+
+.headphone {
+    display: none;
+}
+
+@media (max-width:510px) {
+    .headphone {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        flex-direction: column;
+        align-items: center;
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            list-style: none;
+            font-size: 35px;
+            color: gray;
+            margin-top: 30px;
+            text-align: center;
+            align-items: center;
+
+            p {
+                margin-top: 10px;
+            }
+
+        }
+
+
+    }
+
+    header {
+        background-position: left;
+        height: 900px;
+
+        .maindiv {
+            flex-direction: column;
+
+            .left {
+                width: 95%;
+            }
+
+            .right {
+                width: 70%;
+            }
+        }
+
+        nav {
+            display: none;
+        }
+
+    }
+
+    .sect1 {
+        height: 1400px;
+        width: 100%;
+        .card {
+            margin-top: 120px;
+            width: 95%;
+            .top {
+                width: 91.4%;
+            }
+
+            .bottom {
+                width: 91.4%;
+            }
+        }
+    }
+    .sect3{
+        width: 100%;
+
+        .maindiv3{
+            width: 95%;
+            gap: 10px;
+            .card3{
+                width: 70%;
+            }
+        }
+    }
+    .sect4{
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+    .sect5{
+        flex-direction: column;
+        height: 1100px;
+        justify-content: center;
+        align-items: center;
+        .card5{
+            width: 95%;
+            row-gap: 20px;
+        }
+    }
+
 }
