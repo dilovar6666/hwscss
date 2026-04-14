@@ -258,7 +258,7 @@ header {
         margin-top: 60px;
         gap: 70px;
         flex-wrap: wrap;
-        
+
 
         .card3 {
             width: 250px;
@@ -267,13 +267,59 @@ header {
             display: flex;
             flex-direction: row;
             justify-content: space-evenly;
-            align-items:start;
-            
+            align-items: start;
+
             padding: 20px;
             padding-top: 40px;
             padding-bottom: 40xp;
             border-radius: 9px;
             box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.331);
+        }
+    }
+}
+
+.sect4 {
+    background-color: rgba(37, 43, 66, 1);
+    width: 100%;
+    height: 257px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .left2 {
+        h1 {
+            font-size: 40px;
+            color: white;
+            letter-spacing: 0.2px;
+        }
+
+        p {
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 20px;
+            letter-spacing: 0.2px;
+            color: white;
+            margin-top: 30px;
+        }
+    }
+
+    .right2 {
+        border: 1px solid rgba(230, 230, 230, 1);
+        background-color: white;
+        border-radius: 5px;
+
+        input {
+            padding: 15px 25px;
+            border-radius: 5px;
+            border: none;
+        }
+
+        button {
+            padding: 15px 25px;
+            border-radius: 5px;
+            background-color: rgba(35, 166, 240, 1);
+            color: white;
+            border: 1px solid rgba(230, 230, 230, 1);
         }
     }
 }
